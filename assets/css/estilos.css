@@ -1,0 +1,282 @@
+/* GERAL*/
+
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font: normal 16pt Arial;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* CABEÇALHO */
+
+header {
+    padding: 10px;
+    background-color: rgba(98, 102, 102, 0.89);
+}
+
+main {
+    background-color: white;
+    padding: 20px
+}
+
+main div h1 {
+    text-align: center;
+}
+
+main h3 {
+    text-align: center;
+}
+
+.menu {
+    width: 100%;
+    left: 100px;
+    text-align: end;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.menu ul li a {
+    font: normal 14pt Arial;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu ul li a:hover {
+    border-bottom: 1px solid #000;
+}
+
+.logo {
+    width: 588px;
+    height: 86px;
+    background-image: url(/assets/img/logo.png);
+    background-size: 588px 86px;
+    position: absolute;
+    margin-top: -30px;
+    left: 300px;
+}
+
+#imager {
+    position: absolute;
+    left: 100px;
+    height: 35px;
+    margin-top: -3px;
+}
+
+.nav {
+    background-color: rgb(216, 207, 207);
+    width: 100%;
+    height: 10px;
+}
+
+.content {
+    float: center;
+    position: relative;
+}
+
+/* MAIN */
+
+.bio {
+    font-size: 16px;
+    position: relative;
+    width: 701px;
+    height: 450px;
+    left: 7%;
+    margin-top: 90px;
+}
+
+#imgd {
+    position: absolute;
+    left: 65%;
+}
+
+#wrapper {
+    padding-bottom: 30px;
+}
+
+#fink {
+    padding: -5px;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.pics {
+    margin-top: 5%;
+    background: orange;
+    padding-top: 15px;
+    padding-bottom: 9px;
+    padding-left: 10px;
+}
+
+.pics hr {
+    padding-right: 10px;
+}
+
+/* DIVS YOUTUBE E AGENDA*/
+
+.twodivs {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.youtube {
+    float: left;
+    height: 400px;
+    width: 500px;
+    padding-left: 20px;
+}
+
+.youtube h3 {
+    text-align: center;
+}
+
+.agenda {
+    float: right;
+    width: 550px;
+    height: 400px;
+    margin-left: 19%;
+    margin-right: 15px;
+}
+
+#agenda1 {
+    padding: -5px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.agenda h3 {
+    text-align: center;
+}
+
+/* TABELA DA AGENDA */
+
+#tabela {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tabela td, #tabela th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#tabela tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#tabela tr:hover {
+    background-color: #ddd;
+}
+
+#tabela th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #1d241d;
+    color: white;
+}
+
+/* FORMULÁRIO */
+
+label {
+    color: #838282;
+    font-weight: bold;
+}
+
+input {
+    padding: 0.7em;
+}
+
+fieldset {
+    width: 402px;
+    height: 530px;
+    margin-left: 32%;
+}
+
+#formu {
+    right: 20%;
+    background-color: #ffffff;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+/* BOTÕES FORMULÁRIO */
+
+.bt {
+    margin-left: 17px;
+    font-size: 1.2em;
+    background: #838282;
+    border-color: #838282;
+    margin-bottom: 1em;
+    color: white;
+    padding: 0.2em 0.6em;
+}
+
+.bt:hover {
+    background: #838282de;
+    text-shadow: none;
+    color: white;
+}
+
+.bt, select, label.checkbox {
+    cursor: pointer;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: var(--corBackgroundSecundaria);
+}
+
+footer .container {
+    padding: 20px;
+}
+
+footer nav ul li a {
+    color: white;
+}
+
+footer .container {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #000;
+    text-align: center;
+    padding: 10px;
+}
+
+footer .container span {
+    color: rgb(253, 253, 253);
+}
+
+footer nav .redes-sociais {
+    border-top: 1px solid rgb(255 255 255 / 20%);
+    text-align: center;
+}
+
+footer nav .redes-sociais li {
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+footer nav .redes-sociais li a img {
+    width: 40px;
+    transition: .2s;
+}
+
+footer nav .redes-sociais li a:hover img {
+    transform: scale(1) translateY(-10px);
+}
