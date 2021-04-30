@@ -74,46 +74,4 @@ if(mysqli_query($connect, $sql)) {
     }
 }
 
-
-
-
-/*
-$times = array(
-    "cariocas"=>array("campeao"=>"flamengo", "vice"=>"vasco", "terceiro"=>"botafogo"),
-    "paulistas"=>array("campeao"=>"palmeiras", "vice"=>"santos", "terceiro"=>"sao paulo"),
-    "baianos"=>array("campeao"=>"bahia", "vice"=>"vitoria", "terceiro"=>"itabuna"),
-);
-
-foreach($times['cariocas'] as $indice => $valor) {
-    echo $indice.':'.$valor.'<br>';
-}
-echo '<hr>';
-
-foreach($times['paulistas'] as $indice => $valor) {
-    echo $indice.':'.$valor.'<br>';
-}
-
-echo '<hr>';
-
-foreach($times['baianos'] as $indice => $valor) {
-    echo $indice.':'.$valor.'<br>';
-}
-
-echo '<hr>';
-
-echo count($times);
-
-$frutas = array("a"=>"Morango", "b"=>"Uva", "c"=>"Pera");
-$cores = array("a"=>"Vermelho", "b"=>"Azul", "c"=>"Amarelo");
-print_r($frutas + $cores);
-
-echo '<hr>';
-
-$i = 1;
-for ($i=0; $i <= 10; $i++) { 
-    echo "5 x $i = ".($i*5)."<br>";
-}
-
-*/
-
 ?>
