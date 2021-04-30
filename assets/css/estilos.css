@@ -9,6 +9,10 @@ body {
     text-decoration: none;
 }
 
+img {
+    max-width: 100%;
+}
+
 /* CABEÇALHO */
 
 header {
@@ -52,6 +56,8 @@ main h3 {
 }
 
 .logo {
+    max-width: 100%;
+    display: block;
     width: 588px;
     height: 86px;
     background-image: url(/assets/img/logo.png);
@@ -78,6 +84,7 @@ main h3 {
     float: center;
     position: relative;
 }
+
 
 /* MAIN */
 
@@ -117,6 +124,7 @@ main h3 {
     padding-right: 10px;
 }
 
+
 /* DIVS YOUTUBE E AGENDA*/
 
 .twodivs {
@@ -155,6 +163,7 @@ main h3 {
     text-align: center;
 }
 
+
 /* TABELA DA AGENDA */
 
 #tabela {
@@ -163,7 +172,8 @@ main h3 {
     width: 100%;
 }
 
-#tabela td, #tabela th {
+#tabela td,
+#tabela th {
     border: 1px solid #ddd;
     padding: 8px;
 }
@@ -184,6 +194,7 @@ main h3 {
     color: white;
 }
 
+
 /* FORMULÁRIO */
 
 label {
@@ -197,16 +208,17 @@ input {
 
 fieldset {
     width: 402px;
-    height: 530px;
+    height: 670px;
     margin-left: 32%;
 }
 
 #formu {
     right: 20%;
     background-color: #ffffff;
-    padding-left: 30px;
-    padding-top: 20px;
+    padding-left: 20%;
+    padding-right: 50%;
 }
+
 
 /* BOTÕES FORMULÁRIO */
 
@@ -226,9 +238,12 @@ fieldset {
     color: white;
 }
 
-.bt, select, label.checkbox {
+.bt,
+select,
+label.checkbox {
     cursor: pointer;
 }
+
 
 /* FOOTER */
 
